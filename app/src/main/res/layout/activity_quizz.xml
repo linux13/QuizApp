@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quizz"
+    android:background="#CE93D8"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    >
+        <TextView
+            android:textColor="#1b1816"
+            android:id="@+id/scoree"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Score : 0"
+            android:textSize="25dp" />
+        <TextView
+
+            android:padding="10dp"
+            android:id="@+id/timee"
+            android:layout_gravity="left"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="        4:00"
+            android:textSize="25dp"
+            android:textColor="#09ffe2"
+
+            />
+</LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+
+            android:textSize="25dp"
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <RadioGroup
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:id="@+id/readiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+
+            android:textSize="20dp"
+            android:id="@+id/op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:id="@+id/op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:layout_marginTop="5dp"
+        android:textSize="20dp"
+            android:id="@+id/op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:id="@+id/op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:id="@+id/op5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RadioGroup>
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:orientation="horizontal"
+    android:paddingBottom="20dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <Button
+        android:textColor="#29B6F6"
+        android:id="@+id/skip"
+        android:textSize="15dp"
+        android:text="Skip"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/quizz_1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+
+        />
+    <Button
+        android:textColor="#29B6F6"
+        android:layout_marginBottom="30dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/confirm"
+        android:text="confirm"
+        android:layout_width="150dp"
+        android:background="@drawable/quizz_1"
+        android:layout_height="30dp"
+        />
+</LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

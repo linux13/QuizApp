@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:background="#CE93D8"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="1.5"
+        >
+
+    <TextView
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:id="@+id/text"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Please select a category"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:textColor="#256355"
+        android:gravity="center_horizontal"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/quizz_1"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="Computer"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    >
+    <Button
+        android:id="@+id/btn2"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/quizz_1"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="General Knowledge"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn3"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/quizz_1"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="Inventions"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/quizz_1"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="General Science"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
